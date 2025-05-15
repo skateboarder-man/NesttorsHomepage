@@ -24,6 +24,10 @@ window.addEventListener('DOMContentLoaded', event => {
 
     };
 
+    document.addEventListener('contextmenu', function(event) {
+        event.preventDefault();
+    });
+
     // Shrink the navbar 
     navbarShrink();
 
